@@ -17,7 +17,7 @@ Modular Architecture - Organized using Sass partials
 🚀 Quick Start
 1. Clone or Download
 bash
-git clone [[https://github.com/yourusername/sass-framework.git](https://github.com/ShroukMagdy3/SASS-Mini-Framework.git)](https://github.com/ShroukMagdy3/SASS-Mini-Framework.git)
+git clone [[https://github.com/yourusername/sass-framework.git](https://github.com/ShroukMagdy3/SASS-Mini-Framework.git)]
 
 3. Install Sass
 bash
