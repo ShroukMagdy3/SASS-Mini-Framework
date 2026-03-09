@@ -35,32 +35,36 @@ sass sass/main.scss css/style.css
 sass sass/main.scss:css/style.css --watch
 4. Open in Browser
 Open index.html in your browser to see the demo.
+## 📁 Project Structure
+
+```text
 sass-framework/
 │
 ├── sass/
 │   ├── abstracts/
-│   │   ├── _variables.scss    # Global variables
-│   │   └── _mixins.scss       # Reusable mixins
+│   │   ├── _variables.scss
+│   │   └── _mixins.scss
 │   │
 │   ├── base/
-│   │   └── _base.scss         # Base styles
+│   │   └── _base.scss
 │   │
 │   ├── layout/
-│   │   └── _grid.scss         # Grid system
+│   │   └── _grid.scss
 │   │
 │   ├── components/
-│   │   ├── _card.scss         # Card component
-│   │   └── _button.scss       # Button component
+│   │   ├── _card.scss
+│   │   └── _button.scss
 │   │
 │   ├── utilities/
-│   │   ├── _margins.scss      # Margin utilities
-│   │   └── _borders.scss      # Border utilities
+│   │   ├── _margins.scss
+│   │   └── _borders.scss
 │   │
-│   └── main.scss              # Main entry point
+│   └── main.scss
 │
-├── main.css                   # Compiled CSS
-├── index.html                 # Demo page
-└── README.md                  # Documentation
+├── main.css
+├── index.html
+└── README.md
+```
 
 🎨 Usage Examples
 
