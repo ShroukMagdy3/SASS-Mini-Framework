@@ -1,0 +1,17 @@
+@use "../abstract/mixins" as *;
+@use "../abstract/variables" as *;
+
+.border{
+    @include border($light-color)
+}
+.border-primary {
+  @include border($primary-color);
+}
+
+.border-secondary {
+  @include border($secondary-color);
+}
+
+.border-danger {
+  @include border($danger-color);
+}

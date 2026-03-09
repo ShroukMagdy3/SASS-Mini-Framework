@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SASS Mini Framework</title>
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
+  <body>
+    <header class="mt-4" style="text-align: center">
+      <h1>SASS Mini Framework</h1>
+    </header>
+
+    <div class="container" style="width: 90%; margin: auto">
+      <h2 class="mb-3">Grid System</h2>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <h3 class="card-title">Column 1</h3>
+            <p class="card-content">This is a column</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <h3 class="card-title">Column 2</h3>
+            <p class="card-content">This is a column</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card">
+            <h3 class="card-title">Column 3</h3>
+            <p class="card-content">This is a column</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mt-5 mb-3">Background & Text Colors</h2>
+      <div class="row">
+        <div class="col-2">
+          <p class="bg-1 circle text-5" style="padding: 10px">bg-1</p>
+        </div>
+        <div class="col-2">
+          <p class="bg-2 circle text-3" style="padding: 10px">bg-2</p>
+        </div>
+        <div class="col-2">
+          <p class="bg-3 circle text-1" style="padding: 10px">bg-3</p>
+        </div>
+        <div class="col-2">
+          <p class="bg-4 circle text-5" style="padding: 10px">bg-4</p>
+        </div>
+        <div class="col-2">
+          <p class="bg-5 circle text-2" style="padding: 10px">bg-5</p>
+        </div>
+      </div>
+
+      <h2 class="mt-5 mb-3">Buttons</h2>
+      <div class="row">
+        <div class="col-3">
+          <button class="btn-primary">Primary Button</button>
+        </div>
+        <div class="col-3">
+          <button class="btn-secondary">Secondary Button</button>
+        </div>
+        <div class="col-3">
+          <button class="btn-danger">Danger Button</button>
+        </div>
+        <div class="col-3">
+          <button class="btn-primary border">Button with Border</button>
+        </div>
+      </div>
+
+      <h2 class="mt-5 mb-3">Cards</h2>
+      <div class="row">
+        <div class="col-4">
+          <div class="card">
+            <h3 class="card-title">Card 1</h3>
+            <div class="card-footer">
+              <button class="btn-primary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card border-primary">
+            <h3 class="card-title text-2">Card 2</h3>
+            <div class="card-footer">
+              <button class="btn-secondary">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card bg-5">
+            <h3 class="card-title">Card 3</h3>
+            <div class="card-footer">
+              <button class="btn-danger">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mt-5 mb-3">Different Margin Utilities</h2>
+
+      <div class="row">
+        <div class="col-2 m-1 border-danger">
+          <p>m-1</p>
+        </div>
+
+        <div class="col-2 m-2 border-danger">
+          <p>m-2</p>
+        </div>
+
+        <div class="col-2 m-3 border-danger">
+          <p>m-2</p>
+        </div>
+
+        <div class="col-2 m-4 border-danger">
+          <p>m-2</p>
+        </div>
+
+        <div class="col-2 m-5 border-danger">
+          <p>m-2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

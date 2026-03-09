@@ -1,0 +1,23 @@
+@use '../abstract/variables' as *;
+@use "../abstract/mixins" as * ;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: $dark-color;
+  background-color: $light-color;
+}
+
+.circle {
+  border-radius: 50%;
+  @include flex-center;
+  display: inline-flex;
+}

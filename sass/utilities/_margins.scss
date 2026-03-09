@@ -1,0 +1,34 @@
+@use "../abstract/variables" as *; 
+
+
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: $spacing-unit * $i;
+  }
+
+  .mt-#{$i} {
+    margin-top: $spacing-unit * $i;
+  }
+
+  .mb-#{$i} {
+    margin-bottom: $spacing-unit * $i;
+  }
+
+  .ms-#{$i} {
+    margin-left: $spacing-unit * $i;
+  }
+
+  .me-#{$i} {
+    margin-right: $spacing-unit * $i;
+  }
+}
+
+@each $key, $color in $color-map {
+  .bg-#{$key} {
+    background-color: $color;
+  }
+
+  .text-#{$key} {
+    color: $color;
+  }
+}

@@ -1,0 +1,51 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
+
+
+%btn-base {
+  padding: $spacing-unit * 1.5 $spacing-unit * 3;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  gap: $spacing-unit;
+  @include flex-center;
+  &:hover {
+    transform: translateY(-2px);
+    @include card-shadow(2);
+  }
+}
+
+
+.btn-primary {
+  @extend %btn-base;
+  background-color: $primary-color;
+  color: white;
+  
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.btn-secondary {
+  @extend %btn-base;
+  background-color: $secondary-color;
+  color: white;
+  
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}
+
+.btn-danger {
+  @extend %btn-base;
+  background-color: $danger-color;
+  color: white;
+  
+  &:hover {
+    background-color: darken($danger-color, 10%);
+  }
+}
+

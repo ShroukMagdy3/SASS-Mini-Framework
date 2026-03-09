@@ -1,0 +1,18 @@
+@use "../abstract/variables" as *;
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 100%;
+}
+
+@for $i from 1 through $total-columns{
+    .col-#{$i}{
+        width:(100% /$total-columns ) *$i;
+        padding: $spacing-unit;
+        box-sizing: border-box;
+    }
+}
+
+
