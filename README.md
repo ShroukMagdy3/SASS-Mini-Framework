@@ -41,7 +41,7 @@ Open index.html in your browser to see the demo.
 sass-framework/
 │
 ├── sass/
-│   ├── abstracts/
+│   ├── abstract/
 │   │   ├── _variables.scss
 │   │   └── _mixins.scss
 │   │
@@ -120,7 +120,7 @@ html
 </div>
 ⚙️ Customization
 Variables
-Edit sass/abstracts/_variables.scss:
+Edit sass/abstract/_variables.scss:
 
 scss
 // Colors
@@ -167,7 +167,6 @@ npm run sass
 
 # Watch for changes
 npm run sass:watch
-Add to package.json:
 
 
 📚 Sass Features Demonstrated
